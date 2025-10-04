@@ -131,6 +131,12 @@
 	(net 51 "QSPI_SD2")
 	(net 52 "QSPI_SD0")
 	(net 53 "QSPI_SD1")
+	(net 54 "Net-(D2-DI)")
+	(net 55 "unconnected-(D2-CO-Pad5)")
+	(net 56 "Net-(D2-CI)")
+	(net 57 "unconnected-(D2-DO-Pad6)")
+	(net 58 "unconnected-(J2-Pin_12-Pad12)")
+	(net 59 "unconnected-(J2-Pin_11-Pad11)")
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "1264cef6-2f80-425d-a9fe-2bf320d93246")
@@ -3048,10 +3054,280 @@
 			)
 		)
 	)
+	(footprint "LED_SMD:LED_RGB_5050-6"
+		(layer "F.Cu")
+		(uuid "8a8c1e33-bdba-49ff-a896-2b8c49eb690b")
+		(at 201.07 61.67)
+		(descr "http://cdn.sparkfun.com/datasheets/Components/LED/5060BRG4.pdf")
+		(tags "RGB LED 5050-6")
+		(property "Reference" "D2"
+			(at 0 -3.5 180)
+			(layer "F.SilkS")
+			(uuid "e9cd1c10-d5c0-49b0-a184-4a061537f0e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "APA102"
+			(at 0 3.3 0)
+			(layer "F.Fab")
+			(uuid "7ade2adb-2873-4a58-a587-81a2d25d3d8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b6f07f2-e0dc-40ad-aa49-51466d8acf29")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d943f954-87e4-4380-8fbd-1a8ca401b956")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED*RGB*5050*")
+		(path "/37b02a73-1494-4fc5-8c0c-49163d1ec6db")
+		(sheetname "/")
+		(sheetfile "pcb.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.5 -2.7)
+			(end 2.5 -2.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9d6e86ec-346f-45a8-b34a-2b4262d28fc3")
+		)
+		(fp_line
+			(start 2.5 2.7)
+			(end -2.5 2.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "825f3d6c-5765-44ac-b136-1f43fbd14f35")
+		)
+		(fp_poly
+			(pts
+				(xy -3 -2.5) (xy -3.24 -2.83) (xy -2.76 -2.83) (xy -3 -2.5)
+			)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "320efda6-0f64-4076-a76d-9a8e0e6b624c")
+		)
+		(fp_line
+			(start -3.65 -2.75)
+			(end -3.65 2.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cf08647b-bf4f-48d3-99b0-db55886cf0ce")
+		)
+		(fp_line
+			(start -3.65 2.75)
+			(end 3.65 2.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fde226ce-be0e-47f2-9dfa-d1a637a5ab27")
+		)
+		(fp_line
+			(start 3.65 -2.75)
+			(end -3.65 -2.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cf9411e4-71e6-44db-8a10-42cea17f0120")
+		)
+		(fp_line
+			(start 3.65 2.75)
+			(end 3.65 -2.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6cc58d49-5e2f-402a-9baf-140d73bd482b")
+		)
+		(fp_line
+			(start -2.5 -2.5)
+			(end -2.5 2.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "73bc2231-718d-4f5e-a5bf-16fd8a53596b")
+		)
+		(fp_line
+			(start -2.5 -1.9)
+			(end -1.9 -2.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a5f02359-fe9d-42d6-9c2c-af6473033682")
+		)
+		(fp_line
+			(start -2.5 2.5)
+			(end 2.5 2.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "00304a71-146e-4bd2-9e70-3c3344f264fd")
+		)
+		(fp_line
+			(start 2.5 -2.5)
+			(end -2.5 -2.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c375d6f8-4145-4d38-ac6c-dc3da0667604")
+		)
+		(fp_line
+			(start 2.5 2.5)
+			(end 2.5 -2.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "eae18a1c-536d-465f-90be-f99856574adc")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0 -1.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "501e380d-49c7-439d-aace-4bde4303ffb6")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "d4e82725-ab13-4ad0-b3f5-04a4e7595617")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -2.4 -1.7 90)
+			(size 1.1 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 54 "Net-(D2-DI)")
+			(pinfunction "DI")
+			(pintype "input")
+			(uuid "1b6763a2-1d31-4427-bbf1-efb0bdd34b76")
+		)
+		(pad "2" smd rect
+			(at -2.4 0 90)
+			(size 1.1 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 56 "Net-(D2-CI)")
+			(pinfunction "CI")
+			(pintype "input")
+			(uuid "60f4f521-dfdd-46a9-a8de-b57369a33da6")
+		)
+		(pad "3" smd rect
+			(at -2.4 1.7 90)
+			(size 1.1 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 1 "GND")
+			(pinfunction "GND")
+			(pintype "power_in")
+			(uuid "9b9352bd-d3ed-49b0-b1bc-5d6d6ee11027")
+		)
+		(pad "4" smd rect
+			(at 2.4 1.7 90)
+			(size 1.1 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 2 "+3V3")
+			(pinfunction "VCC")
+			(pintype "power_in")
+			(uuid "b26d1c9e-e3e1-48e9-87a4-972937f3b074")
+		)
+		(pad "5" smd rect
+			(at 2.4 0 90)
+			(size 1.1 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 55 "unconnected-(D2-CO-Pad5)")
+			(pinfunction "CO")
+			(pintype "output+no_connect")
+			(uuid "20713662-1279-4dd9-bc8a-e5ac4d17b58f")
+		)
+		(pad "6" smd rect
+			(at 2.4 -1.7 90)
+			(size 1.1 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 57 "unconnected-(D2-DO-Pad6)")
+			(pinfunction "DO")
+			(pintype "output+no_connect")
+			(uuid "ae6436ce-377b-4001-a1ef-ca42118fb55c")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_RGB_5050-6.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm"
 		(layer "F.Cu")
 		(uuid "8f7f5606-8c08-41c6-9e5e-d0a13600fa7e")
-		(at 202.15 102.2)
+		(at 186.94 104.49)
 		(descr "QFN, 56 Pin (https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf#page=634), generated with kicad-footprint-generator ipc_noLead_generator.py")
 		(tags "QFN NoLead")
 		(property "Reference" "U1"
@@ -5187,9 +5463,9 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 25 "GPIO8")
+			(net 59 "unconnected-(J2-Pin_11-Pad11)")
 			(pinfunction "Pin_11")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "e528387f-d188-4740-b42c-b2200c3e824f")
 		)
 		(pad "12" thru_hole circle
@@ -5198,9 +5474,9 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 13 "GPIO9")
+			(net 58 "unconnected-(J2-Pin_12-Pad12)")
 			(pinfunction "Pin_12")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "3a261189-e010-4138-b732-97fef76e5fe1")
 		)
 		(pad "13" thru_hole circle
@@ -8164,7 +8440,7 @@
 	(footprint "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 		(layer "F.Cu")
 		(uuid "f26fbedd-ba1b-429c-820f-8e7db47bc7c2")
-		(at 203.34 92.87)
+		(at 184.88 92.07)
 		(descr "USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf")
 		(tags "usb usb-c 2.0 pd")
 		(property "Reference" "J1"
