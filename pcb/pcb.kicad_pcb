@@ -7713,13 +7713,13 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "f1987151-3953-4473-9185-fdd81cd90af6")
-		(at 133.35 61.94)
+		(at 133.38 61.96)
 		(descr "Through hole straight pin header, 1x20, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x20 2.54mm single row")
 		(property "Reference" "J3"
 			(at 0 -2.38 0)
 			(layer "F.SilkS")
-			(uuid "04e21fc5-0784-4dcc-8a6c-71fa6704f453")
+			(uuid "683c660f-6104-4f82-aa0b-446dc41050e7")
 			(effects
 				(font
 					(size 1 1)
@@ -7730,7 +7730,7 @@
 		(property "Value" "Conn_01x20"
 			(at 0 50.64 0)
 			(layer "F.Fab")
-			(uuid "ede4d5f4-000c-4e53-a66c-070076483013")
+			(uuid "12b1b9c7-f9b6-4924-a20a-b439635d1e10")
 			(effects
 				(font
 					(size 1 1)
@@ -7742,7 +7742,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e1d2cadf-1622-433e-a03b-b3e0b6a801d9")
+			(uuid "1b8a723a-bb4f-49fc-9e3b-93cbea7b543f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7754,7 +7754,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "04c072e2-959a-4d3e-92e8-b245f5e33bf3")
+			(uuid "ca1b1973-9c2b-436a-ac8a-e1b068071515")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8571,6 +8571,44 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.Cu")
+		(uuid "02b3f3d9-608f-46bf-864c-4b471a627d97")
+		(pts
+			(xy 135.15 111.99) (xy 114.15 111.99)
+		)
+		(height 3.35)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "21"
+			(at 124.65 113.54 0)
+			(layer "F.Cu")
+			(uuid "02b3f3d9-608f-46bf-864c-4b471a627d97")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
 			)
 		)
 	)
