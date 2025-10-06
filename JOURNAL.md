@@ -21,7 +21,7 @@ The USB-C stuff also helped me understand _how_ to use a USB-C receptacle in my 
 ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjcwLCJwdXIiOiJibG9iX2lkIn19--cc9bfc6094a0c7943ef8d2b1597eb42be124130b/image.png)
   
 
-## 10/6/2025 - Routed the PCB! (and had a lot of issues)  
+## 10/6/2025 3 PM - Routed the PCB! (and had a lot of issues)  
 
 Ohhhh boy, this was a pain. Time flew by so fast. I spent the first 2 hours routing like normal without following the guide, and it worked well until the very end. The routing was so bad to the point where I couldn't even complete some of the traces.
 
@@ -36,5 +36,12 @@ I also spent a good amount of time placing a lot of vias near the LDO and the So
 ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Nzc0LCJwdXIiOiJibG9iX2lkIn19--b4ea281db3723da1af59b737b660d6fd2135d6ee/image.png)
 
 ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NzczLCJwdXIiOiJibG9iX2lkIn19--d467a986811cfe6d42a17a01fca231a015a5b72b/image.png)
+  
+
+## 10/6/2025 4 PM - Added silkscreen  
+
+So for the past 30-ish minutes I was thinking what silkscreen I wanted to make my devboard stand out. Initially I thought of adding components makrs so its easier for me to know which parts I'm dealing with, but I thought that was boring and decided to add the board name, the hack club flag, my github username (gotta plug it) and then finally the fact that its a rp2040 board. I also generated the drill and the gerber files to make sure production is smooth.
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Nzc2LCJwdXIiOiJibG9iX2lkIn19--0dbcb22fd022ee8f5a3701c46a883331f8fcaef8/image.png)
   
 
