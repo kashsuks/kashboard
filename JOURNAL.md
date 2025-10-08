@@ -45,3 +45,10 @@ So for the past 30-ish minutes I was thinking what silkscreen I wanted to make m
 ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Nzc2LCJwdXIiOiJibG9iX2lkIn19--0dbcb22fd022ee8f5a3701c46a883331f8fcaef8/image.png)
   
 
+## 10/8/2025 - Redid the neopixel  
+
+A couple days ago, Kai informed me that my previous design with the APA102 might not work as intended. It requried a Data and Clock pin (**Which is NOT normal**) and so he suggested that I use a sk6182 mini or a normal sk6182. Yes, routing the neopixel part once again is quite tiring (this is like the 4th time I've redone it). It is however very much required. It is definitely possible to use it, however it will be confusing. I did a tad bit of research and looked into Valens old pcb and some other ones and I read the datasheet (ahhhhhhhh) which definitely helped me a lot. I ended up routing it like normal with a +5v, a ground, a gpio pin, and an NC.
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTA5MCwicHVyIjoiYmxvYl9pZCJ9fQ==--d2bd75ca3b5973ca16986eb9c7bdb99ab6b2d2a5/image.png)
+  
+
